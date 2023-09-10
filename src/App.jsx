@@ -5,7 +5,7 @@ import Countries from "./components/countries/Countries";
 function App() {
   return (
     <>
-      <h2> Rest Countries</h2>
+      <h1> Rest Countries</h1>
 
       <Countries></Countries>
 
