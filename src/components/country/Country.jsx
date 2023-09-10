@@ -1,4 +1,5 @@
 import "./Country.css"
+
 const Country = ({country}) => {
   return (
     <div className="country" >
