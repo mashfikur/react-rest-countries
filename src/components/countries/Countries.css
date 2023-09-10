@@ -1,5 +1,17 @@
-.country-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.visited-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+.list-image {
+  display: flex;
+  align-items: center;
 }

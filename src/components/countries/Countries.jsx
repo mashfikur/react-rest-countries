@@ -27,7 +27,7 @@ const Countries = () => {
         <h4>Visited Countries : {visitedCountries.length} </h4>
         <ol>
           {visitedCountries.map((country) => {
-            return <li key={country.cca3}> {country.name.common} </li>;
+            return <li key={country.cca3}> {country.name.common} <img className="visited-image" src={country?.flags?.png} alt="" /> </li>;
           })}
         </ol>
       </div>
